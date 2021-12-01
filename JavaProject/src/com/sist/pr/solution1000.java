@@ -14,3 +14,16 @@ public class solution1000 {
 		System.out.println(a+b);
 	}
 }
+//
+/*
+ * interface Main{
+ *   static void main(String[]a)throws Exception{
+ *     int b=-128;
+ *     while(b<0)
+ *       b+=System.in.read();
+ *       System.out.print(b);
+ *     
+ *   }
+ * }
+ *
+ */

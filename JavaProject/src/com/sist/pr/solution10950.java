@@ -5,9 +5,9 @@ public class solution10950 {
 		Scanner scan=new Scanner(System.in);
 
 		int n=scan.nextInt();
+		
 		for(int i=0;i<n;i++) {
-			int a=scan.nextInt()+scan.nextInt();
-			System.out.println(a);
+			System.out.println(scan.nextInt()+scan.nextInt());
 		}
 
 	}
