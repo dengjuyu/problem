@@ -11,20 +11,11 @@ public class solution11721 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		String word = br.readLine();
-		int length = word.length();
-		int a = 0;
-		
-		for(int i=1;i<=length;i++) {
-			if(i % 10 == 0) {
-				System.out.println(word.substring(i-10,i));
-				a = (i%10) + 10 ;
-				//System.out.println(word.charAt(i));
+		for(int i=0;i<word.length();i++) {
+			System.out.print(word.charAt(i));
+			if(i%10 == 9) {
+				System.out.println();
 			}
-			if(a != (i%10)) {
-				System.out.println(word.substring(a));
-			}
-			//System.out.println(word.charAt(i));
-			
 		}
 	}
 
